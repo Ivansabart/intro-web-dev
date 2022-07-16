@@ -1,13 +1,93 @@
-<html>
-	<head>
-		<title>Erase una vez HTML</title>
+<html> <!--  Etiqueta principal  -->
+	<head> <!--  Etiqueta para el encabezado  -->
+		<title>Erase una vez HTML</title> <!--  Etiqueta título  -->
 	</head>
-	<body>
-		<h1>Erase una vez HTML</h1>
-		<h2>El padre</h2>
-		<p>El padre de la web, <strong>Tim Berners-Lee</strong>, es también el padre del lenguaje HTML.</p>
+	<body> <!--  Cuerpo  -->
+		<h1>Erase una vez HTML</h1> <!--  Encabezado de mayor jerarquía  -->
+		<h2>El padre</h2> 
+		<p>El padre de la web, <strong>Tim Berners-Lee</strong>, es también el padre del lenguaje HTML.</p> <!--  Párrafo con negritas  -->
 		<h2>La estandarización</h2>
-		<p>El lenguaje HTML está estandarizado por el W3C, el <em>World Wide Web Consortium</em>.</p>
+		<p>El lenguaje HTML está estandarizado por el W3C, el <em>World Wide Web Consortium</em>.</p> <!--  Párrafo con cursiva  -->
+		<p>La versión actual de HTML es la 5</p>
+		<a href="#li">Lista anidada</a>  <!--  Enlace intradocumental  -->
+		<p>Lista no ordenada</p>
+		<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ul>		
+		<p>Lista ordenada</p>
+		<ol start="28"> <!--  Indica el valor inicial en el que comienza la lista  -->
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ol>		
+		<ol type="A"> <!--  Indica el tipo de numeración p.e. Letras o num. romanos  -->
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ol>		
+		<ol type="a"> <!--  Indica el tipo de numeración p.e. Letras o num. romanos  -->
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ol>		
+		<ol type="I"> <!--  Indica el tipo de numeración p.e. Letras o num. romanos  -->
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ol>		
+		<ol reversed="reversed" type="i"> <!--  Reverse: invierte el orden de numeración de las listas  -->
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+		</ol>		
+		<p>Lista descriptiva</p>
+		<dl>
+			<dt>HTML</dt>
+			<dd>HyperText Markup Language</dd>
+			<dt>HTTP</dt>
+			<dd>HyperText Transfer Protocol</dd>
+			<dt>URL</dt>
+			<dd>Uniform Resource Locator</dd>
+			<dd>Second description</dd>
+			<dd>Third description</dd>
+			<dt>Term withouth description</dt> <!--  En una detailed list, un término puede tener 0 o varias descripciones  -->
+		</dl>
+		<p id="li">Lista anidada</p> 
+		<ul> <!--  Una o más listas dentro de otra, este ejemplo tiene tres niveles de anidamiento  -->
+			<li> Lista de primer nivel: 
+					<ul>
+						<li> Lista de segundo nivel: 
+								<ul>
+									<li> Lista de tercer nivel: 
+									</li>
+								</ul>
+						</li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>Números cardinales:
+				<ol>
+					<li>Uno</li>
+					<li>Dos</li>
+					<li>Tres</li>
+				</ol>
+			</li>
+			<li>Números ordinales:
+				<ol>
+					<li>Primero</li>
+					<li>Segundo</li>
+					<li>Tercero</li>
+				</ol>
+			</li>
+		</ul>
 	</body>
 </html>
-

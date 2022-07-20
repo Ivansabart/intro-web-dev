@@ -1,0 +1,13 @@
+--- Tipo de Desarrollador Web ---
+Frontend: Se dedica a desarrollar la parte visual que ve el usuario final.
+Backend: Se dedica a desarrollar el comportamiento de los datos que envía el cliente al servidor.
+Fullstack: Maneja tecnologías que usa un front y un backend aunque con una especialización porque es muy extenso conocer todo.
+--- Tipos de sitios Web ---
+Página estática: Páginas de información, no hay interacción con el cliente, no hay cambios en mucho tiempo. (Landing pages, Blog post)
+Página dinámica: Están conectadas a una base de datos, web apps, se puede interactuar, se guardan cambios, cambia en poco tiempo. (Gmail, YouTube)
+--- HTML ---
+Anatomía de una página web:
+HEADER: Puede tener el logo y barra de navegación.
+MAIN: Contenedor principal, que contiene la estructura de las secciones.
+ASIDE: Contenedor lateral con información.
+FOOTER: Se coloca información de contacto y normalmente se coloca abajo. Puede estar en un lateral por si hay un scroll infinito.

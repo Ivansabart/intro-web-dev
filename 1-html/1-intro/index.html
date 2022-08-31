@@ -1,16 +1,23 @@
-<!--  EL servidor abre automáticamente el archivo llamado index.html  -->
+<!--  EL servidor abre automáticamente el archivo llamado index.html, si index.html no existe, definir al servidor para que no devuelva estrtuctura de archivos  -->
 <!DOCTYPE html> <!--  Le decimos al navegador qué versión de html vamos a utilizar  -->
 <html lang="es"> <!--  Etiqueta principal, se puede colocar el idioma para traducción  -->
-	<head> <!--  Etiqueta para todos los datos que no se vizualizan en el cliente -->
+	<head> <!--  Etiqueta para todos los datos que no se vizualizan en el cliente (dependencias, fuentes, CSS)-->
 		<meta charset="UTF-8" />	<!--  Juego de caracteres que soporta caracteres especiales  -->
-		<meta name="description" content="Esta página te mostrará cierta información" /> <!--  Para el SEO y en los resultados de búsqueda -->
+		<meta name="description" content="Esta página te mostrará descripción en los resultados de los buscadores (SEO)" />
 		<meta name="robots" content="index, follow" /> <!--  En el index hay autorización para búsquedas automáticas 'unfollow' es para desactivarlo  -->
-		<title>Erase una vez HTML</title> <!--  Etiqueta título para la pestaña del navegador web -->
+		<title>Título de página</title> <!--  Etiqueta título para la pestaña del navegador web -->
 		<meta name="viewport" content="with=device-with, inictial-scale=1.0"> <!--  Ancho de pantalla responsivo -->
 		<link rel="stylesheet" href="./style.css">
 	</head>
-	<body> <!--  Cuerpo donde se muestra en el cliente -->
+	<body> <!--  Cuerpo donde se muestra en el cliente (Escribir HTML5 semántico)-->
 		<header> <!-- Encabezado de la página -->
+			<h1>Título: Erase una vez HTML</h1> <!--  Encabezado de mayor jerarquía  -->
+			<img src="./img/html.jpg" alt="uno">
+			<h2>Soy otro título h2</h2>
+			<h3>Soy otro título h3</h3>
+			<h4>Soy otro título h4</h4>
+			<h5>Soy otro título h5</h5>
+			<h6>Soy otro título h6</h6>
 			<nav></nav> <!--  -->
 		</header>
 		<main> <!-- Contenido principal -->
@@ -29,7 +36,6 @@
 		<footer> <!-- Pie de página -->
 
 		</footer>
-		<h1>Erase una vez HTML</h1> <!--  Encabezado de mayor jerarquía  -->
 		<h2>El padre</h2> 
 		<p>El padre de la web, <strong>Tim Berners-Lee</strong>, es también el padre del lenguaje HTML.</p> <!--  Párrafo con negritas  -->
 		<h2>La estandarización</h2>

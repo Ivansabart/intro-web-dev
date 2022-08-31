@@ -18,8 +18,28 @@ Fullstack: Maneja tecnologías que usa un front y un backend aunque con una espe
 Página estática: Páginas de información, no hay interacción con el cliente, no hay cambios en mucho tiempo. (Landing pages, Blog post)
 Página dinámica: Están conectadas a una base de datos, web apps, se puede interactuar, se guardan cambios, cambia en poco tiempo. (Gmail, YouTube)
 --- HTML ---
+Las carpetas no pueden llevar espacios en sus nombres. Para separar palabras, usar guión; '-', ó guión bajo; '_'.
 Anatomía de una página web:
 HEADER: Puede tener el logo y barra de navegación.
 MAIN: Contenedor principal, que contiene la estructura de las secciones.
 ASIDE: Contenedor lateral con información.
 FOOTER: Se coloca información de contacto y normalmente se coloca abajo. Puede estar en un lateral por si hay un scroll infinito.
+--- Tipos de imágenes ---
+Peso de imagen promedio: 70 KB 
+Lossy vs Lossless
+Lossy: Con pérdida, mejora el tamaño de imágen y tiempo de carga de la página web. (Ideales para rendimiento)
+Para FOTOGRAFÍA
+  JPG
+Lossless: Sin pérdida, el formato quedará con la misma calidad aunque son más pesadas.
+Para LOGOTIPOS
+  GIF
+  PNG 8
+  PNG 24
+  SVG - Scalable Vector Graphics
+Compress PNG, JPG images preserving transparency
+https://tinypng.com/
+Quitar Exif online
+https://www.verexif.com/ 
+Descargar imágenes gratuitas en internet
+https://www.pexels.com/es-es/
+https://unsplash.com/ 

@@ -1,10 +1,34 @@
 <!--  EL servidor abre automáticamente el archivo llamado index.html  -->
 <!DOCTYPE html> <!--  Le decimos al navegador qué versión de html vamos a utilizar  -->
-<html> <!--  Etiqueta principal  -->
-	<head> <!--  Etiqueta para el encabezado  -->
-		<title>Erase una vez HTML</title> <!--  Etiqueta título  -->
+<html lang="es"> <!--  Etiqueta principal, se puede colocar el idioma para traducción  -->
+	<head> <!--  Etiqueta para todos los datos que no se vizualizan en el cliente -->
+		<meta charset="UTF-8" />	<!--  Juego de caracteres que soporta caracteres especiales  -->
+		<meta name="description" content="Esta página te mostrará cierta información" /> <!--  Para el SEO y en los resultados de búsqueda -->
+		<meta name="robots" content="index, follow" /> <!--  En el index hay autorización para búsquedas automáticas 'unfollow' es para desactivarlo  -->
+		<title>Erase una vez HTML</title> <!--  Etiqueta título para la pestaña del navegador web -->
+		<meta name="viewport" content="with=device-with, inictial-scale=1.0"> <!--  Ancho de pantalla responsivo -->
+		<link rel="stylesheet" href="./style.css">
 	</head>
-	<body> <!--  Cuerpo  -->
+	<body> <!--  Cuerpo donde se muestra en el cliente -->
+		<header> <!-- Encabezado de la página -->
+			<nav></nav> <!--  -->
+		</header>
+		<main> <!-- Contenido principal -->
+			<section> <!-- Más etiquetas contenedoras -->
+				<article> <!-- Ayudan a la semántica para no utilizar div -->
+				</article>
+			</section>
+			<p>Lista no ordenada</p>
+			<ul>
+				<li>Elemento 1</li>
+				<li>Elemento 2</li>
+				<li>Elemento 3</li>
+				<li>Elemento 4</li>
+			</ul>		
+		</main>
+		<footer> <!-- Pie de página -->
+
+		</footer>
 		<h1>Erase una vez HTML</h1> <!--  Encabezado de mayor jerarquía  -->
 		<h2>El padre</h2> 
 		<p>El padre de la web, <strong>Tim Berners-Lee</strong>, es también el padre del lenguaje HTML.</p> <!--  Párrafo con negritas  -->
@@ -12,13 +36,6 @@
 		<p>El lenguaje HTML está estandarizado por el W3C, el <em>World Wide Web Consortium</em>.</p> <!--  Párrafo con cursiva  -->
 		<p>La versión actual de HTML es la 5</p>
 		<a href="#li">Enlace a lista anidada</a>  <!--  Enlace intradocumental  -->
-		<p>Lista no ordenada</p>
-		<ul>
-				<li>Elemento 1</li>
-				<li>Elemento 2</li>
-				<li>Elemento 3</li>
-				<li>Elemento 4</li>
-		</ul>		
 		<p>Lista ordenada</p>
 		<ol start="28"> <!--  Indica el valor inicial en el que comienza la lista  -->
 				<li>Elemento 1</li>
@@ -91,6 +108,6 @@
 				</ol>
 			</li>
 		</ul>
-		
+		<a href="lista_super.html">Enlace a primer ejercicio</a>  <!--  Enlace extradocumental  -->
 	</body>
 </html>
